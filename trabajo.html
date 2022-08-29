@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+    
+</head>
+<body>
+    <center>
+        <fieldset>
+            <legend>
+                
+            </legend>
+                <h1>Travel Authorization Form</h1>
+        </fieldset>
+    </center>
+    <h1>Seccion A:Informacion del cliente</h1>
+    <hr>
+    <form id="form-order">
+        <p>
+            <label for="name">Cargo:</label>    
+            <input type="text" name="name" id="name" style="text-transform:uppercase;" value=""  onkeyup="javascript:this.value=this.value.toUpperCase();"
+            required minlength="4" maxlength="100"></br>
+            
+        
+        </p>
+        <p>
+            <label for="name">Nombre: </label>
+            <input type="text" name="name" id="name" style="text-transform:uppercase;" value=""  onkeyup="javascript:this.value=this.value.toUpperCase();""
+            required minlength="4" maxlength="8">
+        </p>
+        <p>
+            <label for="name">Primero apellido:</label>
+            <input type="text" name="name" id="name" style="text-transform:uppercase;" value=""  onkeyup="javascript:this.value=this.value.toUpperCase();"
+            required minlength="4" maxlength="8">
+        </p>
+        <p>
+            <label for="name">Segundo apellido:</label>
+            <input type="text" name="name" id="name" style="text-transform:uppercase;" value=""  onkeyup="javascript:this.value=this.value.toUpperCase();"
+            required minlength="4" maxlength="8">
+
+        </p>
+        <p>
+            <label for="email">Correo electrónico:</label>
+            <input type="text" name="email" id="email"
+            required>
+        </p>
+        <p>
+            <label for="telefono">Número de telefono:</label>
+            <input type="text" name="telefono" id="telefono"
+            required minlength="0" maxlength="9" >
+        </p>
+    </hr>
+    <h1>Seccion B:Informacion del viaje</h1>
+<hr>
+    <pre>
+        <code>
+<label >Nombre de la aerolinea: <input list="browsers" name="myBrowsers"/></label>     <label>Gastos adicionales estimados</label> <datalist id="browsers">
+    <option value="despegar">
+    <option value="jetsmart">
+    <option value="latam">
+    <option value="aerocondor">
+</datalist><br>
+<label>Destino:</label>                <input type="text" name="name" id="name"  >           <label for="coche">Alquiler del coche: </label> <input type="number" name="coche" id="coche" max="600" min="100" ><br>      
+<label form="fecha">Fecha de salida:</label>        <input type="date" name="fecha" id="fecha" min="2020-01-01">                   <label for="hotel">Hotel::</label>    <input type="text" name="hotel" id="hotel"> <br> 
+<label form="fecha">Fecha de regreso:</label>       <input type="date" name="fecha" id="fecha" min="2020-01-01">                   <label for="comidas">Comidas:</label>  <input type="number" name="comidas" id="comidas"><br>
+<label for="costo">Costo estimado:</label>         <input type="number" name="costo" id="costo" max="1000" min="100" >                        <label for="total">Total estimado:</label>     <input type="number" name="total" id="total"> <br> 
+<label for="costo">incluye:</label>     <input type="checkbox" name="costo" >                                    <label> Metodo de pago utilizado : </label >
+                                                            <label><input type="radio" name="metalico" value="metalico" checked="">Metalico</label>
+                                                            <label><input type="radio" name="prioridad" value="media">Tarjeta de credito</label>
+                                                            <label><input type="radio" name="prioridad" value="alta">Cheque</label>       
+<label for="proposito">Proposito del viaje:</label>  <input type="text" name="proposito" id="proposito"> 
+                                                            
+<input type="submit" name="Enviar">  
+
+        
+
+            
+  
+
+       
+        
+        
+            
+     
+    
+
+    
+    </form>
+</body>
+</html>
